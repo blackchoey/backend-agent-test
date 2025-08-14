@@ -1,0 +1,45 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.16",
+    "version": "1.0.0",
+    "id": "your-app-id-here",
+    "packageName": "com.example.teamsapp",
+    "developer": {
+        "name": "Your Name",
+        "websiteUrl": "https://your-website.com",
+        "privacyUrl": "https://your-website.com/privacy",
+        "termsOfUseUrl": "https://your-website.com/terms"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Teams Bot App",
+        "full": "Microsoft Teams Bot Application Example"
+    },
+    "description": {
+        "short": "A sample Teams bot built with Java",
+        "full": "This is a sample Microsoft Teams application that demonstrates bot functionality using Java and the Microsoft Bot Framework."
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        {
+            "botId": "your-app-id-here",
+            "scopes": [
+                "personal",
+                "team",
+                "groupchat"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "your-bot-domain.com"
+    ]
+}
