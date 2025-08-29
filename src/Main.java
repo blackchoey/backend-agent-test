@@ -1,14 +1,27 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+/**
+ * Main class for the backend agent test project.
+ * 
+ * This is a simple Java application that demonstrates basic console output
+ * and serves as a starting point for the backend agent test project.
+ * 
+ * @author Backend Agent Test Team
+ * @version 1.0
+ * @since 1.0
+ */
 public class Main {
+    
+    /**
+     * The main entry point of the application.
+     * 
+     * Prints a welcome message and demonstrates a simple loop
+     * that outputs numbers from 1 to 5.
+     * 
+     * @param args command line arguments (not used in this implementation)
+     */
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello and welcome!");
 
         for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }
     }
