@@ -1,12 +1,12 @@
 # Backend Agent Test
 
-☕ A simple Java application that demonstrates basic console output and loops. This project serves as a basic "Hello World" style program with additional functionality.
+A simple Java application that demonstrates basic console output and loops. This project serves as a basic "Hello World" style program with additional functionality.
 
 ## Description
 
-📚 This application prints a welcome message and then displays a counting loop from 1 to 5. It's designed as a learning project or demonstration of basic Java programming concepts.
+This application prints a welcome message and then displays a counting loop from 1 to 5. It's designed as a learning project or demonstration of basic Java programming concepts.
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Java Development Kit (JDK) 17 or higher
 - Command line access
@@ -23,7 +23,7 @@ backend-agent-test/
 └── README.md             # This file
 ```
 
-## 🚀 How to Run
+## How to Run
 
 ### Method 1: Using Command Line
 
@@ -48,7 +48,7 @@ backend-agent-test/
 2. Navigate to `src/Main.java`
 3. Click the green arrow next to the `main` method or press `Ctrl+Shift+F10` (Windows/Linux) or `Cmd+Shift+R` (Mac)
 
-## 📊 Expected Output
+## Expected Output
 
 When you run the application, you should see the following output:
 
@@ -67,7 +67,7 @@ The main application consists of:
 - A for loop that iterates from 1 to 5
 - Each iteration prints the current value of the loop variable
 
-## 🛠️ Development
+## Development
 
 This project is configured for IntelliJ IDEA and uses Java 21 language features (though it's compatible with Java 17+). The project structure follows standard Java conventions with source code in the `src/` directory.
 
