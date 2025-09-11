@@ -1,17 +1,17 @@
-# 📚 Backend Agent Test
+# Backend Agent Test
 
 A simple Java application that demonstrates basic programming concepts including console output and loop structures.
 
-## 📝 Description
+## Description
 
 This is a basic Java program that prints a welcome message and displays a counting loop from 1 to 5. The application serves as a simple example for testing backend development workflows and Java programming fundamentals.
 
-## ⚙️ Prerequisites
+## Prerequisites
 
-- ☕ Java Development Kit (JDK) 17 or higher
-- 💻 Any text editor or Java IDE (IntelliJ IDEA project files included)
+- Java Development Kit (JDK) 17 or higher
+- Any text editor or Java IDE (IntelliJ IDEA project files included)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 backend-agent-test/
@@ -23,21 +23,21 @@ backend-agent-test/
 └── README.md             # This file
 ```
 
-## 🚀 Installation and Setup
+## Installation and Setup
 
-1. **📥 Clone the repository:**
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/blackchoey/backend-agent-test.git
    cd backend-agent-test
    ```
 
-2. **✅ Verify Java installation:**
+2. **Verify Java installation:**
    ```bash
    java --version
    javac --version
    ```
 
-## 🔧 Usage
+## Usage
 
 ### Method 1: Compile and Run from Project Root
 
@@ -54,7 +54,7 @@ javac Main.java
 java Main
 ```
 
-### 📺 Expected Output
+### Expected Output
 
 ```
 Hello and welcome!i = 1
@@ -64,29 +64,29 @@ i = 4
 i = 5
 ```
 
-## 💻 Development
+## Development
 
-### 🛠️ Using IntelliJ IDEA
+### Using IntelliJ IDEA
 
 1. Open the project directory in IntelliJ IDEA
 2. The project should be automatically recognized as a Java project
 3. Run the `Main` class directly from the IDE
 
-### 📋 Code Overview
+### Code Overview
 
 The `Main.java` file contains:
 - A simple welcome message using `System.out.printf()`
 - A for loop that iterates from 1 to 5
 - Console output using `System.out.println()`
 
-## 🤝 Contributing
+## Contributing
 
-1. 🍴 Fork the repository
-2. 🌿 Create a feature branch
-3. ✏️ Make your changes
-4. 🧪 Test your changes
-5. 📤 Submit a pull request
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test your changes
+5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is created for testing and educational purposes.
