@@ -8,7 +8,7 @@ This is a basic Java project that demonstrates a simple console application. The
 
 ## Prerequisites
 
-- Java Development Kit (JDK) 8 or higher
+- Java Development Kit (JDK) 8 or higher (tested with OpenJDK 17)
 - (Optional) IntelliJ IDEA for development
 
 ## Project Structure
@@ -52,6 +52,8 @@ i = 3
 i = 4
 i = 5
 ```
+
+Note: The welcome message and first counter line appear on the same line due to the use of `System.out.printf()` instead of `System.out.println()` for the welcome message.
 
 ## Development
 
