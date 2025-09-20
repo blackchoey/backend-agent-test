@@ -1,37 +1,37 @@
-# Backend Agent Test
+# Backend Agent Test 🚀
 
-A simple Java application for testing purposes!
+A simple Java application for testing purposes! 👨‍💻
 
-## Description
+## Description 📝
 
 This project contains a basic Java program that demonstrates:
-- Console output with welcome message
-- Simple loop iteration from 1 to 5
+- Console output with welcome message 👋
+- Simple loop iteration from 1 to 5 🔢
 
-## Features
+## Features ✨
 
-- Simple "Hello and welcome!" greeting
-- Counter loop demonstration
-- Basic Java syntax examples
+- Simple "Hello and welcome!" greeting 🎉
+- Counter loop demonstration 🔄
+- Basic Java syntax examples 📚
 
-## Prerequisites
+## Prerequisites 📋
 
-- Java Development Kit (JDK) 8 or higher
-- Command line access
+- Java Development Kit (JDK) 8 or higher ☕
+- Command line access 💻
 
-## How to Build and Run
+## How to Build and Run 🛠️
 
-1. **Compile the program:**
+1. **Compile the program:** 🔨
    ```bash
    javac src/Main.java
    ```
 
-2. **Run the program:**
+2. **Run the program:** ▶️
    ```bash
    java -cp src Main
    ```
 
-## Expected Output
+## Expected Output 📤
 
 ```
 Hello and welcome!i = 1
@@ -41,7 +41,7 @@ i = 4
 i = 5
 ```
 
-## Project Structure
+## Project Structure 📁
 
 ```
 backend-agent-test/
@@ -51,10 +51,10 @@ backend-agent-test/
 └── README.md        # This file
 ```
 
-## Contributing
+## Contributing 🤝
 
-This is a test project for backend agent functionality!
+This is a test project for backend agent functionality! 🧪
 
 ---
 
-Made for testing purposes
+Made with ❤️ for testing purposes
