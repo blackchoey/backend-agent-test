@@ -66,8 +66,9 @@ backend-agent-test/
 ├── src/
 │   └── Main.java         # Main application class
 ├── .gitignore            # Git ignore file
-├── test.iml              # IntelliJ IDEA module file
-└── README.md             # This file
+├── CONTRIBUTING.md       # Contribution guidelines
+├── README.md             # This file
+└── test.iml              # IntelliJ IDEA module file
 ```
 
 ## Code Overview
@@ -97,11 +98,79 @@ To extend this application:
 
 ## Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Create a Pull Request
+We welcome contributions to the Backend Agent Test project! Whether you're fixing bugs, adding features, improving documentation, or reporting issues, your help is appreciated.
+
+### How to Contribute
+
+#### 1. Fork and Clone
+```bash
+# Fork the repository on GitHub, then clone your fork
+git clone https://github.com/YOUR_USERNAME/backend-agent-test.git
+cd backend-agent-test
+```
+
+#### 2. Create a Branch
+```bash
+# Create a new branch for your feature or bugfix
+git checkout -b feature/your-feature-name
+# or
+git checkout -b bugfix/your-bugfix-name
+```
+
+#### 3. Make Your Changes
+- Follow the existing code style and conventions
+- Test your changes thoroughly
+- Update documentation if needed
+- Keep commits focused and atomic
+
+#### 4. Test Your Changes
+```bash
+# Compile and test the application
+javac src/Main.java
+java -cp src Main
+```
+
+#### 5. Commit and Push
+```bash
+# Stage your changes
+git add .
+
+# Commit with a descriptive message
+git commit -m "Add: brief description of your changes"
+
+# Push to your fork
+git push origin feature/your-feature-name
+```
+
+#### 6. Create a Pull Request
+- Go to the original repository on GitHub
+- Click "New Pull Request"
+- Select your branch and provide a clear description
+- Wait for review and address any feedback
+
+### Development Guidelines
+
+#### Code Style
+- Use 4 spaces for indentation
+- Follow Java naming conventions:
+  - Classes: `PascalCase`
+  - Methods and variables: `camelCase`
+  - Constants: `UPPER_CASE`
+- Add comments for complex logic
+- Keep methods small and focused
+
+#### Commit Messages
+- Use the imperative mood ("Add feature" not "Added feature")
+- Keep the first line under 50 characters
+- Reference issues when applicable: "Fix #123: description"
+
+#### Pull Request Guidelines
+- Provide a clear title and description
+- Include steps to test your changes
+- Link to related issues
+- Be responsive to feedback and suggestions
+
+For more detailed contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
