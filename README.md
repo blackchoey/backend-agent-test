@@ -1,20 +1,20 @@
-# Backend Agent Test ☕
+# Backend Agent Test
 
-A simple Java application that demonstrates basic console output and iteration patterns. 🚀
+A simple Java application that demonstrates basic console output and iteration patterns.
 
-## 📋 Overview
+## Overview
 
 This project contains a basic Java program that:
-- 💬 Prints a welcome message to the console
-- 🔄 Demonstrates a simple for loop by counting from 1 to 5
-- 🎯 Serves as a starting point for Java development and testing
+- Prints a welcome message to the console
+- Demonstrates a simple for loop by counting from 1 to 5
+- Serves as a starting point for Java development and testing
 
-## 📦 Prerequisites
+## Prerequisites
 
-- ☕ Java Development Kit (JDK) 8 or higher
-- 💻 Any Java IDE (IntelliJ IDEA, Eclipse, VS Code) or command line tools
+- Java Development Kit (JDK) 8 or higher
+- Any Java IDE (IntelliJ IDEA, Eclipse, VS Code) or command line tools
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 backend-agent-test/
@@ -26,28 +26,28 @@ backend-agent-test/
 └── README.md             # This file
 ```
 
-## 🛠️ Building and Running
+## Building and Running
 
-### 💻 Using Command Line
+### Using Command Line
 
-1. **🔨 Compile the program:**
+1. **Compile the program:**
    ```bash
    javac -d out src/Main.java
    ```
 
-2. **▶️ Run the program:**
+2. **Run the program:**
    ```bash
    java -cp out Main
    ```
 
-### 🎨 Using IntelliJ IDEA
+### Using IntelliJ IDEA
 
-1. 📂 Open the project in IntelliJ IDEA
-2. 🖱️ Right-click on `Main.java` in the project explorer
-3. 🚀 Select "Run 'Main.main()'" or use the run button in the gutter
-4. ⌨️ Alternatively, use the keyboard shortcut to run the code
+1. Open the project in IntelliJ IDEA
+2. Right-click on `Main.java` in the project explorer
+3. Select "Run 'Main.main()'" or use the run button in the gutter
+4. Alternatively, use the keyboard shortcut to run the code
 
-## 📋 Expected Output
+## Expected Output
 
 When you run the program, you should see the following output:
 
@@ -59,21 +59,21 @@ i = 4
 i = 5
 ```
 
-## 🔧 Development
+## Development
 
 This project is set up as an IntelliJ IDEA project with the following configuration:
-- 📂 Source files are located in the `src/` directory
-- 🏗️ Output files are compiled to the `out/` directory (ignored by git)
-- ⚙️ The project uses the default JDK configuration
+- Source files are located in the `src/` directory
+- Output files are compiled to the `out/` directory (ignored by git)
+- The project uses the default JDK configuration
 
-## 🤝 Contributing
+## Contributing
 
-1. 🍴 Fork the repository
-2. 🌿 Create a feature branch
-3. ✏️ Make your changes
-4. 🧪 Test your changes
-5. 📤 Submit a pull request
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test your changes
+5. Submit a pull request
 
-## 📄 License
+## License
 
-This project is provided as-is for educational and testing purposes. 📚
+This project is provided as-is for educational and testing purposes.
