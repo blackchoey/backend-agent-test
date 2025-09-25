@@ -1,23 +1,23 @@
-# Backend Agent Test
+# Backend Agent Test ☕
 
-A simple Java application that demonstrates basic console output and loops.
+A simple Java application that demonstrates basic console output and loops. 🚀
 
-## Description
+## 📝 Description
 
 This is a basic Java program that serves as a "Hello World" example. The application prints a welcome message to the console and then demonstrates a simple loop by printing numbers from 1 to 5.
 
-## Features
+## ✨ Features
 
-- Console output demonstration
-- Simple loop implementation
-- Basic Java program structure
+- 🖥️ Console output demonstration
+- 🔄 Simple loop implementation
+- 📋 Basic Java program structure
 
-## Prerequisites
+## 📋 Prerequisites
 
-- Java Development Kit (JDK) 8 or higher
-- A Java IDE (IntelliJ IDEA recommended) or command line tools
+- ☕ Java Development Kit (JDK) 8 or higher
+- 🛠️ A Java IDE (IntelliJ IDEA recommended) or command line tools
 
-## Installation
+## 🚀 Installation
 
 1. Clone the repository:
    ```bash
@@ -27,9 +27,9 @@ This is a basic Java program that serves as a "Hello World" example. The applica
 
 2. No additional dependencies are required for this simple Java application.
 
-## Usage
+## 🎯 Usage
 
-### Using Command Line
+### 💻 Using Command Line
 
 1. Compile the Java source code:
    ```bash
@@ -41,7 +41,7 @@ This is a basic Java program that serves as a "Hello World" example. The applica
    java -cp out Main
    ```
 
-### Expected Output
+### 📤 Expected Output
 
 ```
 Hello and welcome!i = 1
@@ -51,13 +51,13 @@ i = 4
 i = 5
 ```
 
-### Using IntelliJ IDEA
+### 🧠 Using IntelliJ IDEA
 
 1. Open the project in IntelliJ IDEA
 2. Navigate to `src/Main.java`
 3. Click the green run button or press `Ctrl+Shift+F10` (Windows/Linux) or `Cmd+Shift+R` (Mac)
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 backend-agent-test/
@@ -69,26 +69,26 @@ backend-agent-test/
 └── README.md           # This file
 ```
 
-## Code Overview
+## 🔍 Code Overview
 
 The main application consists of a single class `Main` with the following functionality:
 
-- **Welcome Message**: Prints "Hello and welcome!" to the console
-- **Loop Demonstration**: Uses a for loop to print numbers 1 through 5
+- **👋 Welcome Message**: Prints "Hello and welcome!" to the console
+- **🔄 Loop Demonstration**: Uses a for loop to print numbers 1 through 5
 
-## Contributing
+## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some amazing feature'`)
-5. Push to the branch (`git push origin feature/amazing-feature`)
-6. Open a Pull Request
+1. 🍴 Fork the repository
+2. 🌿 Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. ✏️ Make your changes
+4. 💾 Commit your changes (`git commit -m 'Add some amazing feature'`)
+5. 📤 Push to the branch (`git push origin feature/amazing-feature`)
+6. 🔄 Open a Pull Request
 
-## License
+## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## Author
+## 👨‍💻 Author
 
 Created by [blackchoey](https://github.com/blackchoey)
