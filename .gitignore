@@ -3,6 +3,10 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
+### Java ###
+*.class
+*.jar
+
 ### Eclipse ###
 .apt_generated
 .classpath
