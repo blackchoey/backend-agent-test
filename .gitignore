@@ -3,6 +3,15 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
 ### Eclipse ###
 .apt_generated
 .classpath
