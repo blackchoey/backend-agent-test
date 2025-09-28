@@ -1,0 +1,96 @@
+name: Bug Report
+description: Report a bug or unexpected behavior
+title: "[BUG] "
+labels: ["bug", "needs-triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug! Please fill out the information below to help us diagnose and fix the issue.
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      description: Please confirm you have completed the following
+      options:
+        - label: I have searched existing issues to ensure this bug hasn't been reported already
+          required: true
+        - label: I have read the [README.md](https://github.com/blackchoey/backend-agent-test/blob/main/README.md)
+          required: true
+        - label: I have followed the installation instructions in [INSTALL.md](https://github.com/blackchoey/backend-agent-test/blob/main/INSTALL.md)
+          required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is
+      placeholder: Describe the bug here...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Please provide step-by-step instructions to reproduce the issue
+      placeholder: |
+        1. Compile the code with `javac src/Main.java`
+        2. Run with command `java -cp src Main 1 2 3 4 5 3`
+        3. See error...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: I expected the program to return index 2...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: The program returned -1 instead...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment Information
+      description: Please provide your environment details
+      placeholder: |
+        - Operating System: (e.g., Ubuntu 20.04, Windows 10, macOS 12.5)
+        - Java Version: (output of `java -version`)
+        - Java Compiler Version: (output of `javac -version`)
+      value: |
+        - Operating System: 
+        - Java Version: 
+        - Java Compiler Version: 
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here (error messages, screenshots, etc.)
+      placeholder: |
+        Error messages, stack traces, or any other relevant information...
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's [Code of Conduct](https://github.com/blackchoey/backend-agent-test/blob/main/CODE_OF_CONDUCT.md)
+          required: true
