@@ -1,0 +1,100 @@
+name: Question
+description: Ask a question about the project
+title: "[QUESTION] "
+labels: ["question", "needs-triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question about the project? We're here to help! Please check our documentation first, then provide details about your question.
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      description: Please confirm you have completed the following
+      options:
+        - label: I have searched existing issues and discussions
+          required: true
+        - label: I have read the [README.md](https://github.com/blackchoey/backend-agent-test/blob/main/README.md)
+          required: true
+        - label: I have checked the [SUPPORT.md](https://github.com/blackchoey/backend-agent-test/blob/main/SUPPORT.md) file
+          required: true
+
+  - type: dropdown
+    id: question-type
+    attributes:
+      label: Question Type
+      description: What type of question is this?
+      options:
+        - Usage - How to use the binary search implementation
+        - Algorithm - Questions about the binary search algorithm
+        - Installation - Help with setup and installation
+        - Performance - Questions about efficiency and optimization
+        - Integration - How to integrate this code into other projects
+        - Educational - Learning and understanding the implementation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: Please describe your question in detail
+      placeholder: What would you like to know?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Please provide context about what you're trying to accomplish
+      placeholder: |
+        I'm trying to...
+        My goal is to...
+        I need help with...
+
+  - type: textarea
+    id: attempted-solutions
+    attributes:
+      label: What have you tried?
+      description: Please describe what you've already attempted
+      placeholder: |
+        I have tried:
+        1. ...
+        2. ...
+        3. ...
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment (if relevant)
+      description: If your question is environment-specific, please provide details
+      placeholder: |
+        - Operating System: (e.g., Ubuntu 20.04, Windows 10, macOS 12.5)
+        - Java Version: (output of `java -version`)
+        - Use case: (e.g., homework, production code, learning)
+      value: |
+        - Operating System: 
+        - Java Version: 
+        - Use case: 
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other information that might help us answer your question
+      placeholder: Any additional context, code snippets, or examples...
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's [Code of Conduct](https://github.com/blackchoey/backend-agent-test/blob/main/CODE_OF_CONDUCT.md)
+          required: true

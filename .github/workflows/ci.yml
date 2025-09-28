@@ -1,0 +1,226 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        java-version: [8, 11, 17, 21]
+    
+    name: Test with Java ${{ matrix.java-version }}
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up JDK ${{ matrix.java-version }}
+      uses: actions/setup-java@v4
+      with:
+        java-version: ${{ matrix.java-version }}
+        distribution: 'temurin'
+    
+    - name: Compile Java code
+      run: javac src/Main.java
+    
+    - name: Run basic functionality tests
+      run: |
+        echo "Testing basic functionality..."
+        
+        # Test 1: Element found
+        echo "Test 1: Element found in array"
+        result=$(java -cp src Main 1 2 3 4 5 3 | grep "Result index:" | cut -d' ' -f3)
+        if [ "$result" = "2" ]; then
+          echo "✅ Test 1 passed: Element found at correct index"
+        else
+          echo "❌ Test 1 failed: Expected index 2, got $result"
+          exit 1
+        fi
+        
+        # Test 2: Element not found
+        echo "Test 2: Element not found in array"
+        result=$(java -cp src Main 1 2 3 4 5 7 | grep "Result index:" | cut -d' ' -f3)
+        if [ "$result" = "-1" ]; then
+          echo "✅ Test 2 passed: Element not found returns -1"
+        else
+          echo "❌ Test 2 failed: Expected -1, got $result"
+          exit 1
+        fi
+        
+        # Test 3: Single element array (found)
+        echo "Test 3: Single element array (element found)"
+        result=$(java -cp src Main 5 5 | grep "Result index:" | cut -d' ' -f3)
+        if [ "$result" = "0" ]; then
+          echo "✅ Test 3 passed: Single element found at index 0"
+        else
+          echo "❌ Test 3 failed: Expected 0, got $result"
+          exit 1
+        fi
+        
+        # Test 4: Single element array (not found)
+        echo "Test 4: Single element array (element not found)"
+        result=$(java -cp src Main 5 3 | grep "Result index:" | cut -d' ' -f3)
+        if [ "$result" = "-1" ]; then
+          echo "✅ Test 4 passed: Element not found in single element array"
+        else
+          echo "❌ Test 4 failed: Expected -1, got $result"
+          exit 1
+        fi
+        
+        # Test 5: First element
+        echo "Test 5: First element in array"
+        result=$(java -cp src Main 1 2 3 4 5 1 | grep "Result index:" | cut -d' ' -f3)
+        if [ "$result" = "0" ]; then
+          echo "✅ Test 5 passed: First element found at index 0"
+        else
+          echo "❌ Test 5 failed: Expected 0, got $result"
+          exit 1
+        fi
+        
+        # Test 6: Last element
+        echo "Test 6: Last element in array"
+        result=$(java -cp src Main 1 2 3 4 5 5 | grep "Result index:" | cut -d' ' -f3)
+        if [ "$result" = "4" ]; then
+          echo "✅ Test 6 passed: Last element found at index 4"
+        else
+          echo "❌ Test 6 failed: Expected 4, got $result"
+          exit 1
+        fi
+        
+        # Test 7: Usage message
+        echo "Test 7: Usage message with insufficient arguments"
+        output=$(java -cp src Main 2>&1)
+        if echo "$output" | grep -q "Usage:"; then
+          echo "✅ Test 7 passed: Usage message displayed"
+        else
+          echo "❌ Test 7 failed: Usage message not displayed"
+          exit 1
+        fi
+        
+        echo "All tests passed! ✅"
+    
+    - name: Clean up compiled files
+      run: rm -f src/*.class
+
+  code-quality:
+    runs-on: ubuntu-latest
+    name: Code Quality Check
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up JDK 11
+      uses: actions/setup-java@v4
+      with:
+        java-version: 11
+        distribution: 'temurin'
+    
+    - name: Check code compilation
+      run: |
+        echo "Checking code compilation..."
+        javac src/Main.java
+        echo "✅ Code compiles successfully"
+    
+    - name: Check for common issues
+      run: |
+        echo "Checking for common code issues..."
+        
+        # Check for TODO comments
+        if grep -r "TODO\|FIXME\|HACK" src/; then
+          echo "⚠️  Found TODO/FIXME/HACK comments"
+        else
+          echo "✅ No TODO/FIXME/HACK comments found"
+        fi
+        
+        # Check for System.out.println (acceptable for this educational project)
+        if grep -r "System.out.println" src/; then
+          echo "ℹ️  Found System.out.println statements (acceptable for this project)"
+        fi
+        
+        # Check for unused imports (basic check)
+        if grep -r "^import" src/ >/dev/null 2>&1; then
+          echo "ℹ️  Found import statements"
+        else
+          echo "✅ No unused imports (no imports found)"
+        fi
+    
+    - name: Clean up
+      run: rm -f src/*.class
+
+  documentation-check:
+    runs-on: ubuntu-latest
+    name: Documentation Check
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Check required files
+      run: |
+        echo "Checking for required documentation files..."
+        
+        required_files=(
+          "README.md"
+          "LICENSE"
+          "CONTRIBUTING.md"
+          "CODE_OF_CONDUCT.md"
+          "SECURITY.md"
+          "SUPPORT.md"
+          "CHANGELOG.md"
+          "AUTHORS.md"
+          "INSTALL.md"
+        )
+        
+        missing_files=()
+        
+        for file in "${required_files[@]}"; do
+          if [ -f "$file" ]; then
+            echo "✅ $file exists"
+          else
+            echo "❌ $file is missing"
+            missing_files+=("$file")
+          fi
+        done
+        
+        if [ ${#missing_files[@]} -gt 0 ]; then
+          echo "Missing required files: ${missing_files[*]}"
+          exit 1
+        else
+          echo "All required documentation files are present ✅"
+        fi
+    
+    - name: Check README content
+      run: |
+        echo "Checking README.md content..."
+        if [ -s README.md ]; then
+          echo "✅ README.md has content"
+        else
+          echo "❌ README.md is empty"
+          exit 1
+        fi
+    
+    - name: Check links in documentation
+      run: |
+        echo "Checking internal links in documentation..."
+        # Basic check for common internal file references
+        files_to_check=("README.md" "CONTRIBUTING.md" "SUPPORT.md")
+        
+        for file in "${files_to_check[@]}"; do
+          if [ -f "$file" ]; then
+            echo "Checking links in $file..."
+            # This is a basic check - in a real project you might use a link checker tool
+            if grep -q "CONTRIBUTING.md" "$file" && [ ! -f "CONTRIBUTING.md" ]; then
+              echo "❌ $file references CONTRIBUTING.md but file doesn't exist"
+              exit 1
+            fi
+          fi
+        done
+        
+        echo "✅ Basic link check passed"
