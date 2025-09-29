@@ -1,11 +1,11 @@
-# Test Java Project
+# Backend Agent Test
 
-A simple Java application that demonstrates basic programming concepts including loops and console output.
+A Java project for testing and demonstration purposes.
 
 ## Project Structure
 
 ```
-test/
+backend-agent-test/
 ├── src/
 │   └── Main.java          # Main application class
 ├── test.iml              # IntelliJ IDEA module file
@@ -14,7 +14,7 @@ test/
 
 ## Description
 
-This is a basic Java console application that:
+This Java application currently contains a simple Hello World program that:
 - Prints a welcome message
 - Demonstrates a simple for loop that iterates from 1 to 5
 - Shows basic console output using `System.out.println()`
@@ -55,15 +55,23 @@ i = 5
 
 ## Features
 
-- Simple console-based Hello World application
+- Simple console-based Java application
 - Demonstrates basic Java syntax
 - Uses loops and string formatting
 - Educational example for beginners
+- IntelliJ IDEA project setup
+
+## Development
+
+This project is set up for IntelliJ IDEA development with:
+- Module configuration (test.iml)
+- Proper project structure
+- Git integration with appropriate .gitignore
 
 ## Contributing
 
-This is a simple test project. Feel free to fork and experiment with the code to learn Java basics.
+This is a test project. Feel free to fork and experiment with the code to learn Java basics or use it as a foundation for more complex applications.
 
 ## License
 
-This project is for educational purposes.
+This project is for educational and testing purposes.
