@@ -1,8 +1,8 @@
-# Backend Agent Test
+# Backend Agent Test 🧪
 
-A Java project for testing and demonstration purposes.
+A Java project for testing and demonstration purposes. ☕
 
-## Project Structure
+## Project Structure 📁
 
 ```
 backend-agent-test/
@@ -12,26 +12,26 @@ backend-agent-test/
 └── README.md             # Project documentation
 ```
 
-## Description
+## Description 📝
 
 This Java application currently contains a simple Hello World program that:
-- Prints a welcome message
-- Demonstrates a simple for loop that iterates from 1 to 5
-- Shows basic console output using `System.out.println()`
+- 👋 Prints a welcome message
+- 🔄 Demonstrates a simple for loop that iterates from 1 to 5
+- 🖥️ Shows basic console output using `System.out.println()`
 
-## Requirements
+## Requirements 📋
 
-- Java Development Kit (JDK) 8 or higher
-- IntelliJ IDEA (recommended) or any Java IDE
+- ☕ Java Development Kit (JDK) 8 or higher
+- 💡 IntelliJ IDEA (recommended) or any Java IDE
 
-## How to Run
+## How to Run 🚀
 
-### Using IntelliJ IDEA
+### Using IntelliJ IDEA 💡
 1. Open the project in IntelliJ IDEA
 2. Navigate to `src/Main.java`
 3. Click the green run button or press `Ctrl+Shift+F10`
 
-### Using Command Line
+### Using Command Line 💻
 1. Navigate to the project directory
 2. Compile the Java file:
    ```bash
@@ -42,7 +42,7 @@ This Java application currently contains a simple Hello World program that:
    java -cp src Main
    ```
 
-## Expected Output
+## Expected Output 📤
 
 ```
 Hello and welcome!
@@ -53,25 +53,25 @@ i = 4
 i = 5
 ```
 
-## Features
+## Features ✨
 
-- Simple console-based Java application
-- Demonstrates basic Java syntax
-- Uses loops and string formatting
-- Educational example for beginners
-- IntelliJ IDEA project setup
+- 🖥️ Simple console-based Java application
+- 📚 Demonstrates basic Java syntax
+- 🔄 Uses loops and string formatting
+- 🎓 Educational example for beginners
+- 💡 IntelliJ IDEA project setup
 
-## Development
+## Development 🛠️
 
 This project is set up for IntelliJ IDEA development with:
-- Module configuration (test.iml)
-- Proper project structure
-- Git integration with appropriate .gitignore
+- ⚙️ Module configuration (test.iml)
+- 📁 Proper project structure
+- 🔗 Git integration with appropriate .gitignore
 
-## Contributing
+## Contributing 🤝
 
 This is a test project. Feel free to fork and experiment with the code to learn Java basics or use it as a foundation for more complex applications.
 
-## License
+## License 📄
 
 This project is for educational and testing purposes.
