@@ -59,4 +59,12 @@ This project is configured for development with IntelliJ IDEA, but can be built 
 
 ## Contributing
 
-This is a test repository. Feel free to experiment with modifications to learn Java programming concepts.
+We welcome contributions to this learning repository! Whether you're fixing bugs, adding features, or improving documentation, your contributions help make this project better for everyone.
+
+Please read our [Contributing Guide](CONTRIBUTING.md) for detailed information on:
+- Setting up your development environment
+- Code style guidelines
+- How to submit pull requests
+- Reporting issues
+
+This is a test repository designed for learning, so feel free to experiment with modifications to explore Java programming concepts.
