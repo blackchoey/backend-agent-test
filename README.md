@@ -1,69 +1,117 @@
-# Test Java Project
+# Backend Agent Test
 
-A simple Java application that demonstrates basic programming concepts including loops and console output.
+A Java application demonstrating basic programming concepts including loops and console output. This project serves as a test repository for backend agent functionality.
 
-## Project Structure
+## 📋 Table of Contents
+
+- [Overview](#overview)
+- [Project Structure](#project-structure)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+
+## 🎯 Overview
+
+This is a basic Java console application that demonstrates fundamental programming concepts:
+- Welcome message output
+- For loop iteration (1 through 5)
+- Console output using `System.out.println()`
+- Basic Java syntax and structure
+
+This project is designed for educational purposes and as a test environment for backend development agents.
+
+## 📁 Project Structure
 
 ```
-test/
+backend-agent-test/
+├── .idea/                 # IntelliJ IDEA configuration
 ├── src/
-│   └── Main.java          # Main application class
+│   └── Main.java         # Main application entry point
 ├── test.iml              # IntelliJ IDEA module file
-└── README.md             # Project documentation
+├── .gitignore            # Git ignore patterns
+└── README.md             # This file
 ```
 
-## Description
+## ⚙️ Requirements
 
-This is a basic Java console application that:
-- Prints a welcome message
-- Demonstrates a simple for loop that iterates from 1 to 5
-- Shows basic console output using `System.out.println()`
+- **Java Development Kit (JDK)**: Version 8 or higher
+- **IDE**: IntelliJ IDEA (recommended) or any Java-compatible IDE
+- **Operating System**: Windows, macOS, or Linux
 
-## Requirements
+## 🚀 Installation
 
-- Java Development Kit (JDK) 8 or higher
-- IntelliJ IDEA (recommended) or any Java IDE
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/blackchoey/backend-agent-test.git
+   cd backend-agent-test
+   ```
 
-## How to Run
+2. **Open in your IDE:**
+   - For IntelliJ IDEA: Open the project folder directly
+   - For other IDEs: Import as a Java project
+
+## 💻 Usage
 
 ### Using IntelliJ IDEA
+
 1. Open the project in IntelliJ IDEA
 2. Navigate to `src/Main.java`
-3. Click the green run button or press `Ctrl+Shift+F10`
+3. Click the green run button (▶️) or press `Shift+F10` (Windows/Linux) or `Control+R` (macOS)
 
 ### Using Command Line
-1. Navigate to the project directory
-2. Compile the Java file:
+
+1. **Compile the Java file:**
    ```bash
    javac src/Main.java
    ```
-3. Run the compiled class:
+
+2. **Run the compiled class:**
    ```bash
    java -cp src Main
    ```
 
-## Expected Output
+### Expected Output
+
+When you run the program, you should see:
 
 ```
-Hello and welcome!
-i = 1
+Hello and welcome!i = 1
 i = 2
 i = 3
 i = 4
 i = 5
 ```
 
-## Features
+## ✨ Features
 
-- Simple console-based Hello World application
-- Demonstrates basic Java syntax
-- Uses loops and string formatting
-- Educational example for beginners
+- ✅ Simple, beginner-friendly code structure
+- ✅ Demonstrates core Java concepts
+- ✅ Console-based output
+- ✅ Educational example for learning Java basics
+- ✅ Test environment for backend agents
 
-## Contributing
+## 🤝 Contributing
 
-This is a simple test project. Feel free to fork and experiment with the code to learn Java basics.
+This is a test project for backend agent development. Contributions are welcome for:
+- Code improvements
+- Documentation enhancements
+- Bug fixes
+- New educational examples
 
-## License
+To contribute:
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-This project is for educational purposes.
+## 📄 License
+
+This project is for educational and testing purposes. Feel free to use it as a learning resource or template for your own projects.
+
+---
+
+**Note**: This is a test repository for backend agent functionality and may be updated or modified as part of testing procedures.
