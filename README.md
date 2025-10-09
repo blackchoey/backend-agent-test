@@ -45,8 +45,7 @@ This is a basic Java console application that:
 ## Expected Output
 
 ```
-Hello and welcome!
-i = 1
+Hello and welcome!i = 1
 i = 2
 i = 3
 i = 4
