@@ -4,7 +4,7 @@ public class Main {
     // Buggy binary search implementation
     public static int binarySearch(int[] arr, int b) {
         int i = 0, j = arr.length - 1;
-        while (i < j) { // BUG: should be left <= right
+        while (i <= j) { // Fixed: changed from i < j to i <= j
             int a = i + (j - i) / 2;
             if (arr[a] == b) {
                 return a;
