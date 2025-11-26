@@ -1,10 +1,10 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    // Buggy binary search implementation
+    // Binary search implementation
     public static int binarySearch(int[] arr, int b) {
         int i = 0, j = arr.length - 1;
-        while (i < j) { // BUG: should be left <= right
+        while (i <= j) {
             int a = i + (j - i) / 2;
             if (arr[a] == b) {
                 return a;
