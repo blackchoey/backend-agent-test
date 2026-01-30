@@ -100,7 +100,66 @@ This project uses IntelliJ IDEA as the primary IDE. The `.idea` directory and `t
 
 ## 🤝 Contributing
 
-This is a test repository for backend agent functionality. Contributions are welcome for educational improvements.
+Contributions are welcome for educational improvements! This repository serves as a test environment for backend agent functionality, and we appreciate contributions that enhance its educational value.
+
+### How to Contribute
+
+1. **Fork the Repository**
+   - Click the "Fork" button at the top right of this repository
+   - Clone your forked repository to your local machine:
+     ```bash
+     git clone https://github.com/your-username/backend-agent-test.git
+     ```
+
+2. **Create a Branch**
+   - Create a new branch for your feature or fix:
+     ```bash
+     git checkout -b feature/your-feature-name
+     ```
+
+3. **Make Your Changes**
+   - Write clean, well-documented code
+   - Follow the existing code style and conventions
+   - Test your changes thoroughly
+
+4. **Commit Your Changes**
+   - Write clear, descriptive commit messages:
+     ```bash
+     git commit -m "Add feature: description of your changes"
+     ```
+
+5. **Push to Your Fork**
+   - Push your changes to your forked repository:
+     ```bash
+     git push origin feature/your-feature-name
+     ```
+
+6. **Submit a Pull Request**
+   - Go to the original repository on GitHub
+   - Click "New Pull Request"
+   - Select your branch and describe your changes
+   - Submit the pull request for review
+
+### Contribution Guidelines
+
+- **Code Quality**: Ensure your code is clean, readable, and well-commented
+- **Documentation**: Update the README or add comments if your changes require explanation
+- **Testing**: Test your changes with various inputs to ensure they work correctly
+- **Educational Value**: Focus on contributions that improve the educational aspects of the project
+- **Bug Fixes**: If fixing the binary search bug, document the fix thoroughly for educational purposes
+
+### Areas for Contribution
+
+- Additional algorithm implementations
+- Improved error handling
+- More comprehensive examples
+- Unit tests
+- Documentation improvements
+- Code comments and explanations
+
+### Questions?
+
+If you have questions about contributing, feel free to open an issue or reach out to the maintainers.
 
 ## 📄 License
 
