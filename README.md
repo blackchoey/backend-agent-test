@@ -13,7 +13,12 @@ backend-agent-test/
 ├── src/
 │   └── Main.java          # Main application with binary search implementation
 ├── .gitignore             # Git ignore rules
-└── test.iml               # IntelliJ IDEA module file
+├── test.iml               # IntelliJ IDEA module file
+├── README.md              # This file - project documentation
+├── LICENSE                # MIT License
+├── CONTRIBUTING.md        # Contribution guidelines
+├── CODE_OF_CONDUCT.md     # Community guidelines
+└── CHANGELOG.md           # Version history
 ```
 
 ## Prerequisites
