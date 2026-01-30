@@ -1,6 +1,6 @@
 # Backend Agent Test
 
-A Java project demonstrating a binary search implementation with educational purposes.
+A Java project demonstrating a binary search implementation for educational purposes.
 
 ## Description
 
@@ -10,6 +10,7 @@ This repository contains a simple Java application that implements a binary sear
 
 ```
 backend-agent-test/
+├── .idea/                 # IntelliJ IDEA configuration directory
 ├── src/
 │   └── Main.java          # Main class with binary search implementation
 ├── .gitignore             # Git ignore configuration
