@@ -1,8 +1,8 @@
-# Backend Agent Test
+# Backend Agent Test 🔍
 
 A simple Java project containing a binary search implementation for testing purposes.
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 .
@@ -12,7 +12,7 @@ A simple Java project containing a binary search implementation for testing purp
 └── README.md            # This file
 ```
 
-## Usage
+## 🚀 Usage
 
 ### Compile the program
 
@@ -26,7 +26,7 @@ javac src/Main.java -d out
 java -cp out Main <array elements> <target value>
 ```
 
-### Example
+### 💡 Example
 
 ```bash
 java -cp out Main 1 2 3 4 5 3
@@ -34,7 +34,7 @@ java -cp out Main 1 2 3 4 5 3
 
 This will search for the value `3` in the array `[1, 2, 3, 4, 5]` and output the result index.
 
-## Features
+## ✨ Features
 
 - Binary search algorithm implementation
 - Command-line interface for searching values in a sorted array
