@@ -1,13 +1,13 @@
-# Binary Search — Java
+# 🔍 Binary Search — Java
 
 A simple Java project demonstrating a **binary search** algorithm.
 
-## Overview
+## 📖 Overview
 
 This project implements a classic binary search on a sorted integer array.  
 The main class (`Main`) accepts a sorted list of integers and a target value as command-line arguments and prints the index of the target value, or `-1` if it is not found.
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 backend-agent-test/
@@ -16,11 +16,11 @@ backend-agent-test/
 └── README.md
 ```
 
-## Requirements
+## ✅ Requirements
 
 - Java 8 or higher
 
-## Building
+## 🔨 Building
 
 Compile the source file from the repository root:
 
@@ -28,7 +28,7 @@ Compile the source file from the repository root:
 javac src/Main.java -d out/
 ```
 
-## Usage
+## 🚀 Usage
 
 Run the compiled class, passing the sorted array elements followed by the target value as arguments:
 
@@ -49,17 +49,17 @@ If the target is not found, the program prints:
 Result index: -1
 ```
 
-## Algorithm
+## 🧠 Algorithm
 
 `binarySearch(int[] arr, int target)` uses a standard iterative binary search:
 
 1. Maintain `left` and `right` pointers around the search range.
 2. Calculate the midpoint `mid = left + (right - left) / 2`.
-3. If `arr[mid] == target`, return `mid`.
-4. If `arr[mid] < target`, narrow the range to `[mid + 1, right]`.
-5. Otherwise, narrow the range to `[left, mid - 1]`.
-6. Return `-1` when the range is exhausted.
+3. If `arr[mid] == target`, return `mid`. ✅
+4. If `arr[mid] < target`, narrow the range to `[mid + 1, right]`. ➡️
+5. Otherwise, narrow the range to `[left, mid - 1]`. ⬅️
+6. Return `-1` when the range is exhausted. ❌
 
-## License
+## 📄 License
 
 This project is provided for educational purposes.
