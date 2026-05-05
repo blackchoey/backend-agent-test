@@ -1,16 +1,16 @@
-# Binary Search Demo
+# 🔍 Binary Search Demo
 
 A simple Java project demonstrating a binary search implementation.
 
-## Overview
+## 📖 Overview
 
 This project contains a `Main` class with a `binarySearch` method that searches for a target value in a sorted integer array and returns its index, or `-1` if the target is not found.
 
-## Requirements
+## ✅ Requirements
 
-- Java (JDK 8 or higher)
+- ☕ Java (JDK 8 or higher)
 
-## Building
+## 🔨 Building
 
 Compile the source file from the project root:
 
@@ -18,7 +18,7 @@ Compile the source file from the project root:
 javac src/Main.java -d out/
 ```
 
-## Usage
+## 🚀 Usage
 
 Run the program by passing the array elements followed by the target value as command-line arguments:
 
@@ -38,7 +38,7 @@ Expected output:
 Result index: 4
 ```
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 src/
