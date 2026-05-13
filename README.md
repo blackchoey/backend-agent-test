@@ -23,3 +23,5 @@ Example:
 ```bash
 java -cp src Main 1 2 3 4 5 5
 ```
+
+This command searches for target `5` (last argument) in the sorted array `[1, 2, 3, 4, 5]`.
