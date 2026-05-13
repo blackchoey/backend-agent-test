@@ -29,5 +29,5 @@ In this example, the array elements are `1 2 3 4 5` and the target value (last a
 The program prints:
 
 ```text
-Result index: <index-or--1>
+Result index: <index or -1 if not found>
 ```
