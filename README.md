@@ -23,3 +23,5 @@ Example:
 ```bash
 java -cp src Main 1 2 3 4 5 3
 ```
+
+In the example above, the final argument (`3`) is the target value to search for.
