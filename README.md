@@ -27,3 +27,5 @@ Example:
 ```bash
 java -cp src Main 1 2 3 4 5 5
 ```
+
+In this example, the first five numbers (`1 2 3 4 5`) are the array and the final `5` is the target value to search for.
