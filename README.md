@@ -19,5 +19,7 @@ java -cp src Main <array elements> <target value>
 Example:
 
 ```bash
-java -cp src Main 1 2 3 4 5 5
+java -cp src Main 1 2 3 4 5 4
 ```
+
+In the example above, `1 2 3 4 5` are the sorted array elements and the final `4` is the target value.
