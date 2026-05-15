@@ -22,7 +22,7 @@ From the repository root:
 java -cp src Main <array elements> <target value>
 ```
 
-Example 💡
+### Example 💡
 
 ```bash
 java -cp src Main 1 2 3 4 5 5
