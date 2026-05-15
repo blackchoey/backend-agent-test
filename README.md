@@ -1,12 +1,12 @@
-# backend-agent-test
+# backend-agent-test 🚀
 
-Simple Java CLI app that performs a binary search on integer input passed via command-line arguments.
+Simple Java CLI app that performs a binary search on integer input passed via command-line arguments. 🔎
 
-## Requirements
+## Requirements ✅
 
 - Java (JDK 8+)
 
-## Build
+## Build 🛠️
 
 From the repository root:
 
@@ -14,7 +14,7 @@ From the repository root:
 javac src/Main.java
 ```
 
-## Run
+## Run ▶️
 
 From the repository root:
 
@@ -22,7 +22,7 @@ From the repository root:
 java -cp src Main <array elements> <target value>
 ```
 
-Example:
+Example 💡:
 
 ```bash
 java -cp src Main 1 2 3 4 5 5
