@@ -23,3 +23,5 @@ Example:
 ```bash
 java -cp src Main 1 2 3 4 5 5
 ```
+
+In this example, `1 2 3 4 5` is the input array and the final `5` is the target value.
