@@ -19,7 +19,7 @@ javac src/Main.java
 Pass sorted array elements followed by the target value:
 
 ```bash
-java -cp src Main 1 2 3 4 5 6
+java -cp src Main 1 2
 ```
 
 Example output:
@@ -28,4 +28,4 @@ Example output:
 Result index: -1
 ```
 
-In this example, the sorted array is `[1, 2, 3, 4, 5]` and the target is `6`, so the result is `-1` (not found).
+In this example, the sorted array is `[1]` and the target is `2`, so the result is `-1` (not found).
