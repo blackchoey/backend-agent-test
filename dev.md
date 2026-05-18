@@ -13,5 +13,6 @@ javac src/Main.java
 From the repository root:
 
 ```bash
+# The last value is the target to search for.
 java -cp src Main 1 2 3 4 5 5
 ```
