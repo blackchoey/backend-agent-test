@@ -27,3 +27,5 @@ Example output:
 ```text
 Result index: -1
 ```
+
+In this example, the sorted array is `[1, 2, 3, 4, 5]` and the target is `6`, so the result is `-1` (not found).
