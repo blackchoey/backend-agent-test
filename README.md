@@ -24,4 +24,6 @@ Example:
 java -cp src Main 1 2 3 4 5 5
 ```
 
+This runs a search for target value `5` (the last argument) in the array `[1, 2, 3, 4, 5]`.
+
 The program prints the result index, or `-1` if the target is not found.
