@@ -17,5 +17,5 @@ java -cp src Main <array elements> <target value>
 Example:
 
 ```bash
-java -cp src Main 1 2 3 4 5 3
+java -cp src Main 1 2 3 4 5 8
 ```
