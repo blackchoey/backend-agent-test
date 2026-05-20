@@ -1,8 +1,8 @@
-# backend-agent-test
+# 🔍 backend-agent-test
 
 A simple Java project demonstrating a binary search implementation.
 
-## Build
+## 🔨 Build
 
 Compile the source from the repository root:
 
@@ -10,7 +10,7 @@ Compile the source from the repository root:
 javac src/Main.java
 ```
 
-## Usage
+## 🚀 Usage
 
 Run the program by passing a sorted array of integers followed by the target value as command-line arguments:
 
@@ -26,7 +26,7 @@ java -cp src Main 1 2 3 4 5 3
 
 The program prints the zero-based index of the target in the array, or `-1` if the target is not found.
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 src/
