@@ -14,7 +14,7 @@ javac src/Main.java
 java -cp src Main <array elements> <target value>
 ```
 
-Example:
+Example (the last argument is the target value):
 
 ```bash
 java -cp src Main 1 2 3 4 5 8
