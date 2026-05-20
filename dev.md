@@ -1,6 +1,6 @@
-# Development Notes 📘
+# Development Notes
 
-## Build 🛠️
+## Build
 
 From the repository root:
 
@@ -8,7 +8,7 @@ From the repository root:
 javac src/Main.java
 ```
 
-## Run ▶️
+## Run
 
 From the repository root:
 
