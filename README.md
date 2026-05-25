@@ -20,14 +20,16 @@ javac src/Main.java
 java -cp src Main <array elements> <target value>
 ```
 
+The final argument is the target value; all preceding arguments are the sorted array elements.
+
 Example:
 
 ```bash
-java -cp src Main 1 2 3 4 5 4
+java -cp src Main 1 2 3 4 5 3
 ```
 
 Output:
 
 ```text
-Result index: 3
+Result index: 2
 ```
