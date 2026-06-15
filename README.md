@@ -1,12 +1,12 @@
-# backend-agent-test
+# backend-agent-test 🔎
 
 Small Java command-line application for running a binary search on a sorted list of integers.
 
-## Requirements
+## Requirements ✅
 
 - Java (JDK 8+)
 
-## Build
+## Build 🛠️
 
 From the repository root:
 
@@ -14,7 +14,7 @@ From the repository root:
 javac src/Main.java
 ```
 
-## Run
+## Run ▶️
 
 Pass the sorted array values first, followed by the target value:
 
