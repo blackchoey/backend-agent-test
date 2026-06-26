@@ -1,12 +1,12 @@
-# backend-agent-test
+# backend-agent-test 🔎
 
 Small Java command-line example that runs a binary search over sorted integer input.
 
-## Requirements
+## Requirements ✅
 
 - Java compiler and runtime (`javac`, `java`)
 
-## Build
+## Build 🛠️
 
 From the repository root:
 
@@ -14,7 +14,7 @@ From the repository root:
 javac src/Main.java
 ```
 
-## Run
+## Run ▶️
 
 Pass sorted array elements followed by the target value:
 
