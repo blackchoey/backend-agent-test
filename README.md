@@ -1,15 +1,15 @@
-# Binary Search Demo
+# 🔍 Binary Search Demo
 
 A simple Java project demonstrating a binary search implementation with a command-line interface.
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 src/
   Main.java   # Binary search implementation and CLI entry point
 ```
 
-## Build
+## 🔨 Build
 
 Compile the project from the repository root:
 
@@ -17,7 +17,7 @@ Compile the project from the repository root:
 javac src/Main.java
 ```
 
-## Usage
+## 🚀 Usage
 
 Run the program by passing a sorted array followed by the target value:
 
@@ -25,7 +25,7 @@ Run the program by passing a sorted array followed by the target value:
 java -cp src Main <array elements> <target value>
 ```
 
-### Example
+### 💡 Example
 
 ```bash
 java -cp src Main 1 2 3 4 5 5
