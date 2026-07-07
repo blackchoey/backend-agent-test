@@ -19,7 +19,7 @@ javac src/Main.java
 Pass sorted array elements followed by the target value:
 
 ```bash
-java -cp src Main 1 2 3 4 5 4
+java -cp src Main 1 2 3 4 5 7
 ```
 
 The program prints the found index, or `-1` if the value is not found.
