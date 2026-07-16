@@ -1,16 +1,16 @@
-# Backend Agent Test
+# 🤖 Backend Agent Test
 
 A Java project demonstrating a binary search implementation.
 
-## Overview
+## 📖 Overview
 
 This project contains a `Main` class with a `binarySearch` method that searches for a target value in a sorted integer array and returns the index of the target, or `-1` if not found.
 
-## Requirements
+## ✅ Requirements
 
-- Java Development Kit (JDK) 8 or later
+- ☕ Java Development Kit (JDK) 8 or later
 
-## Build
+## 🔨 Build
 
 Compile the source from the repository root:
 
@@ -18,7 +18,7 @@ Compile the source from the repository root:
 javac src/Main.java
 ```
 
-## Run
+## 🚀 Run
 
 ```bash
 java -cp src Main <array elements> <target value>
@@ -26,7 +26,7 @@ java -cp src Main <array elements> <target value>
 
 The last argument is the target value to search for; all preceding arguments are the elements of the sorted array.
 
-### Example
+### 💡 Example
 
 ```bash
 java -cp src Main 1 2 3 4 5 5
