@@ -1,8 +1,8 @@
-# backend-agent-test 🚀
+# backend-agent-test
 
-Simple Java CLI example that runs a binary search on integer inputs 🔎.
+Simple Java CLI example that runs a binary search on integer inputs.
 
-## Build 🛠️
+## Build
 
 From the repository root:
 
@@ -10,7 +10,7 @@ From the repository root:
 javac src/Main.java
 ```
 
-## Run ▶️
+## Run
 
 Pass sorted array elements followed by the target value:
 
@@ -18,7 +18,7 @@ Pass sorted array elements followed by the target value:
 java -cp src Main 1 2 3 4 5 3
 ```
 
-Example output 📌:
+Example output:
 
 ```text
 Result index: 2
