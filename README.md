@@ -1,12 +1,12 @@
-# backend-agent-test
+# 🤖 backend-agent-test
 
 Small Java command-line example that reads sorted integer arguments, searches for a target value, and prints the resulting index.
 
-## Requirements
+## ✅ Requirements
 
 - Java Development Kit (JDK)
 
-## Build
+## 🛠️ Build
 
 From the repository root:
 
@@ -14,7 +14,7 @@ From the repository root:
 javac src/Main.java
 ```
 
-## Run
+## ▶️ Run
 
 Pass the sorted array values first and the target value last:
 
@@ -22,7 +22,7 @@ Pass the sorted array values first and the target value last:
 java -cp src Main 1 2 3 4 5 3
 ```
 
-Example output:
+### 📌 Example output
 
 ```text
 Result index: 2
