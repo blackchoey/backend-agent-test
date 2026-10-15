@@ -1,13 +1,13 @@
-# Backend Agent Test
+# 🔎 Backend Agent Test
 
 A small Java command-line program that searches an integer array for a target
 value using binary search.
 
-## Requirements
+## ☕ Requirements
 
 - Java Development Kit (JDK)
 
-## Build
+## 🔧 Build
 
 From the repository root, compile the program with:
 
@@ -15,7 +15,7 @@ From the repository root, compile the program with:
 javac src/Main.java
 ```
 
-## Run
+## 🚀 Run
 
 Provide the array elements in ascending order, followed by the target value:
 
